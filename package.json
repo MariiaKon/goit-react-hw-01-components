@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://mariiakon.github.io/goit-react-hw-01-components/",
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -43,7 +45,8 @@
     "eslint": "^8.11.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.1"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
