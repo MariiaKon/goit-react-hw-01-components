@@ -5,6 +5,7 @@
 .vscode/
 .idea/
 .husky/
+.eslintcache
 
 # dependencies
 /node_modules
