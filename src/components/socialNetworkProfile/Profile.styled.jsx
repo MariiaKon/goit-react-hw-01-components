@@ -5,7 +5,7 @@ export const ProfileCard = styled.div`
   flex-direction: column;
   align-items: center;
   width: 270px;
-  margin: auto;
+  margin: auto auto 70px auto;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgb(80, 100, 200);
