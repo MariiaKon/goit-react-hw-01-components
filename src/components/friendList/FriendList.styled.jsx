@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const FriendListCss = styled.ul`
   display: grid;
   grid-gap: 10px;
-  width: 80%;
+  max-width: 600px;
   min-width: 270px;
   margin: auto auto 70px auto;
   padding: 10px;
