@@ -5,7 +5,8 @@ import { setRandomHexColor } from 'components/statistics/setRandomColor';
 export const StatSection = styled.section`
   box-shadow: 0px 0px 3px rgb(80, 100, 200);
   margin: auto auto 70px auto;
-  width: 700px;
+  width: 80%;
+  min-width: 270px;
 `;
 
 export const Title = styled.h2`
