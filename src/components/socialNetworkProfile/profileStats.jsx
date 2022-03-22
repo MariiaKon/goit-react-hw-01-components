@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types';
-import {
-  Stats,
-  Label,
-  Quantity,
-  StatsList,
-} from 'components/socialNetworkProfile/Profile.styled';
+import { Stats, Label, Quantity, StatsList } from './Profile.styled';
 
 export const ProfileStats = ({ followers, views, likes }) => {
   return (

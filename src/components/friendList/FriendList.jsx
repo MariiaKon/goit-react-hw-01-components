@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { FriendListItem } from 'components/friendList/FriendListItem';
-import { FriendListCss } from 'components/friendList/FriendList.styled';
+import { FriendListItem } from './FriendListItem';
+import { FriendListCss } from './FriendList.styled';
 
 export const FriendList = ({ friends }) => {
   return (

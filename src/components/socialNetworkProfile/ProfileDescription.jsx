@@ -1,11 +1,5 @@
 import PropTypes from 'prop-types';
-import {
-  Description,
-  Avatar,
-  Name,
-  Tag,
-  Location,
-} from 'components/socialNetworkProfile/Profile.styled';
+import { Description, Avatar, Name, Tag, Location } from './Profile.styled';
 
 export const ProfileDescription = ({ username, tag, location, avatar }) => {
   return (

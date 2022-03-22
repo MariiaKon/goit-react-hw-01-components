@@ -1,10 +1,9 @@
-import { StatsTitle } from 'components/statistics/Title';
-import { Stats } from 'components/statistics/Stats';
-import data from 'components/statistics/data.json';
-import { StatSection, StatList } from 'components/statistics/Statistics.styled';
+import PropTypes from 'prop-types';
+import { StatsTitle } from './Title';
+import { Stats } from './Stats';
+import { StatSection, StatList } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
-  stats = data;
   return (
     <StatSection>
       {title && <StatsTitle text={title} />}
@@ -20,4 +19,15 @@ export const Statistics = ({ title, stats }) => {
       </StatList>
     </StatSection>
   );
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ),
 };

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import data from 'components/statistics/data.json';
-import { setRandomHexColor } from 'components/statistics/setRandomColor';
+import data from './data.json';
+import { setRandomHexColor } from './setRandomColor';
 
 export const StatSection = styled.section`
   box-shadow: 0px 0px 3px rgb(80, 100, 200);
